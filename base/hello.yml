@@ -41,7 +41,7 @@ metadata:
   namespace: k8s-scale-prod
 spec:
   rules:
-    - host: deploying-practice.apps.ocp4.example.com
+    - host: deploying-scaling.apps.ocp4.example.com
       http:
         paths:
           - path: /
